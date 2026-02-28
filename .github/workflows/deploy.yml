@@ -53,8 +53,8 @@ jobs:
 
       - name: Build
         run: npm run build
-                env:
-                  BASE_URL: /axiom-0NR46d3V/
+        env:
+          BASE_URL: /axiom-0NR46d3V/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
