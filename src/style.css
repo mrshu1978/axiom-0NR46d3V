@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.task-list-enter-active {
+  transition: opacity 300ms;
+}
+.task-list-enter-from {
+  opacity: 0;
+}
+.task-list-leave-active {
+  transition: transform 300ms;
+}
+.task-list-leave-to {
+  transform: translateX(100%);
+}

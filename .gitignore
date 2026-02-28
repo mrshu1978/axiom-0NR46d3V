@@ -5,3 +5,4 @@ npm-debug.log*
 .DS_Store
 # Axiom coordination (V6.0)
 .axiom/
+node_modules
