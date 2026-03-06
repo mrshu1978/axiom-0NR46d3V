@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gray-100 p-6 md:p-8">
+  <div class="min-h-screen bg-blue-100 p-6 md:p-8">
     <OfflineIndicator />
     <div class="max-w-4xl mx-auto">
       <header class="mb-10 text-center">
